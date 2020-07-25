@@ -6,7 +6,7 @@
 #include <string>
 #include <opencv2/core/eigen.hpp>
 #include <DBoW2.h>
-#include <DLoopDetector.h>
+#include <DLoopDetector/DLoopDetector.h>
 #include <Eigen/Geometry>
 #include "ceres/ceres.h"
 #include <atomic>

@@ -91,7 +91,7 @@
 #include <DBoW2.h>
 
 // DLoopDetector
-#include <DLoopDetector.h>
+#include <DLoopDetector/DLoopDetector.h>
 
 // Okvis
 #include <okvis/Time.hpp>

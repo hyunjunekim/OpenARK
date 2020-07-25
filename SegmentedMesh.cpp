@@ -1,5 +1,5 @@
 #include "SegmentedMesh.h"
-
+using namespace std;
 namespace ark {
 
 	SegmentedMesh::SegmentedMesh(double voxel_length,

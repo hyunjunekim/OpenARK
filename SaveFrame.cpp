@@ -14,7 +14,9 @@ Esther commented
 #include <mutex>
 #include <iostream>
 #include <fstream>
-#include <direct.h>
+#include <sys/types.h>
+#include <sys/stat.h>
+//#include <direct.h>
 
 //#include <MathUtils.h>
 //#include <pcl/filters/statistical_outlier_removal.h>
@@ -27,7 +29,7 @@ Esther commented
 namespace ark {
 
     void createFolder(std::string folderPath){
-		mkdir(folderPath.c_str());
+		mkdir(folderPath.c_str(), 0777);
 		std::cout << folderPath << "dir made" << std::endl;
     }
 
